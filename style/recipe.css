@@ -57,26 +57,19 @@ color : #404040;
 font-family: Georgia,Garamond,serif;
 }
 /* any links on the page*/
-.a{
+a{
     color: #A4A400;
 }
-.tooltip{
-    position:relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-.tooltip .tbstext .tbsptext{
-    visibility: hidden;  width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
 
+.boldDirection{
+        font-weight: bold;
 }
-.tbsp:hover .tbsptext{
-    visibility:visible;
+pre{
+    font-family: monospace;
 }
-.tbs:hover .tbstext{
-    visibility:visible;
+blockquote.comment{
+ background-color: #A4A400;
+}
+.cake{
+    text-decoration: line-through;
 }
