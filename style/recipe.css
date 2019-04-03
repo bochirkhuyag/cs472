@@ -1,7 +1,9 @@
 body{
 background-color: white;
 }
+
 h1,h2,h3,h4,h5,h6 {
+    text-decoration: underline;
     background-color: #F0F0F0;
     color: #A4A400;
     font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
@@ -18,9 +20,9 @@ h1{
     font-weight: normal;
 }
 /*text in the body*/
-.textInBody{
-    color : #404040;
-    font-size:  11pt
+body{
+color : #404040;
+    font-size:  11pt;
 }
 /* text in page*/
 .textInPage{
@@ -36,11 +38,15 @@ a{
 }
 pre{
     font-family: monospace;
-    text-align: left;
 }
 blockquote.comment{
  background-color: #FFFFA8;
 }
 .cake{
     text-decoration: line-through;
+}
+.menu{
+    border-bottom: solid;
+    border-color: black;
+    border-width: thin;
 }
