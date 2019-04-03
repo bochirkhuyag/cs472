@@ -1,0 +1,82 @@
+body{
+background-color: white;
+}
+/* when two styles set conflicting values for the same
+property, the latter style takes precedence */
+/*
+The most specific one applies. If they have the same specificity, then the later
+one will be used.
+
+::pseudo-element versus :pseudo-class
+A CSS pseudo-element is used to style specified parts of an element
+ Style the first letter, or line, of an element
+ ::first-line, ::first-letter
+ Insert content (pseudo element) before, or after, the content of an element
+ ::before, ::after
+selector1 selector2
+Applies the given properties to selector2 only if it is inside a selector1 on the page
+selector1 > selector2
+Applies the given properties to selector2 only if it is direct child of selector1 (in the DOM)
+ */
+
+/* Alignment of text within its element, can be left, right, center, or
+justify
+text-align: center;
+/* Space between the lines in two paragraphs
+line-height: 30px;
+/* Space between words in <p> elements should be 30 pixels
+word-spacing: 30px;
+/* Indent the first line of all <p> elements with 50 pixels
+text-indent: 50px;
+}
+*/
+
+h1,h2,h3,h4,h5,h6 {
+    background-color: #F0F0F0;
+    color: #A4A400;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+h2 {
+    /* main heading */
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+h1{
+    text-align:left;
+    font-size: 18pt;
+    font-weight: normal;
+}
+/*text in the body*/
+.textInBody{
+color : #404040;
+    font-size:  11pt;
+}
+/* text in page*/
+.textInPage{
+font-family: Georgia,Garamond,serif;
+}
+/* any links on the page*/
+.a{
+    color: #A4A400;
+}
+.tooltip{
+    position:relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tbstext .tbsptext{
+    visibility: hidden;  width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+}
+.tbsp:hover .tbsptext{
+    visibility:visible;
+}
+.tbs:hover .tbstext{
+    visibility:visible;
+}
