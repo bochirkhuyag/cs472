@@ -1,36 +1,6 @@
 body{
 background-color: white;
 }
-/* when two styles set conflicting values for the same
-property, the latter style takes precedence */
-/*
-The most specific one applies. If they have the same specificity, then the later
-one will be used.
-
-::pseudo-element versus :pseudo-class
-A CSS pseudo-element is used to style specified parts of an element
- Style the first letter, or line, of an element
- ::first-line, ::first-letter
- Insert content (pseudo element) before, or after, the content of an element
- ::before, ::after
-selector1 selector2
-Applies the given properties to selector2 only if it is inside a selector1 on the page
-selector1 > selector2
-Applies the given properties to selector2 only if it is direct child of selector1 (in the DOM)
- */
-
-/* Alignment of text within its element, can be left, right, center, or
-justify
-text-align: center;
-/* Space between the lines in two paragraphs
-line-height: 30px;
-/* Space between words in <p> elements should be 30 pixels
-word-spacing: 30px;
-/* Indent the first line of all <p> elements with 50 pixels
-text-indent: 50px;
-}
-*/
-
 h1,h2,h3,h4,h5,h6 {
     background-color: #F0F0F0;
     color: #A4A400;
@@ -49,8 +19,8 @@ h1{
 }
 /*text in the body*/
 .textInBody{
-color : #404040;
-    font-size:  11pt;
+    color : #404040;
+    font-size:  11pt
 }
 /* text in page*/
 .textInPage{
@@ -66,9 +36,10 @@ a{
 }
 pre{
     font-family: monospace;
+    text-align: left;
 }
 blockquote.comment{
- background-color: #A4A400;
+ background-color: #FFFFA8;
 }
 .cake{
     text-decoration: line-through;
