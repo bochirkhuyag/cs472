@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    border:0;
+    padding:0;
+    font-size:8pt;
+    font-family: Verdana,Tahoma,SansSerif;
+    background-image: url("background.png");
+   }
+#topbanner{
+    background-image:url("bannerbg.png");
+}
+#topbanner img{
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+}
+#page td {
+    padding:0; margin:0;
+}
+
+#page {
+    border-collapse: collapse;
+}
+h1{
+    font-size:24pt;
+    font-weight: bold;
+    text-align: center;
+    font-family: Tahoma,Verdana,SansSerif;
+    text-shadow: 3px 3px  #999999;
+}
+#content {
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid gray;
+    border-radius: 20px;
+    overflow:hidden;
+    background-color: #A2B964;
+
+}
+#leftContent{
+    width: 550px;
+    vertical-align: middle;
+    overflow:hidden;
+    background-image: url("background.png");
+}
+#leftContent > div{
+    margin-bottom: 20px;
+
+}
+#leftTop{
+    background-image:url("rbg.png");
+    height:83px;
+    font-weight: bold;
+    font-size: 48pt;
+    color: red;
+   }
+.columnLeft,.columnRight{
+    padding:0;
+    margin-left: 2%;
+    width:47%;
+}
+.columnLeft{
+    float:left;
+}
+.columnRight{
+    margin-right: 2%;
+    float:right;
+}
+.review{
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E8DC9B;
+    border-color: grey;
+    border: 2px;
+    border-radius: 10px;
+    padding: 8px;
+    margin : 5px;
+    border-style:solid;
+}
+.review dev{
+
+}
+#rightContent{
+    width:250px;
+    float:right;
+    overflow: hidden;
+}
+#rightContent dl{
+    font-family: Arial,SansSerif;
+    font-size: 8pt;
+    box-sizing: border-box;
+    padding: 10pt;
+}
+#rightContent dl dt{
+    font-weight: bold;
+}
+#rightContent:after{
+    clear:right;
+}
+.review img{
+    margin-right:5px;
+}
+#content p span{
+font-style: italic;
+}
+p:not(.review) img{
+    margin-right: 5px;
+    float:left;
+}
+#reviewIndication{
+    position: relative;
+
+    background-color: #A2B964;
+    padding: 5px;
+}
+#validator{
+    position: fixed;
+    bottom:0;
+    right:0;
+    width: 100px;
+}
