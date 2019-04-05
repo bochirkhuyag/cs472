@@ -1,0 +1,59 @@
+column{
+
+}
+h1{
+    background-color: lightblue;
+}
+footer{
+    background-color: darkgreen;
+}
+nav{
+    background-color: darkgreen;
+}
+.column1{
+    height: 200px;
+    width:33%;
+    display: inline-block;
+    background-color: lightgrey;
+
+}
+.column2{
+
+    display: inline-block;
+    width:33%;
+    height: 200px;
+    background-color: grey;
+}
+.column3{
+
+    display: inline-block;
+    width:33%;
+    height: 200px;
+    background-color: #999999;
+}
+@media only screen and (max-width: 599px){
+nav li{
+    display:inline;
+}
+}
+
+@media only screen and (min-width: 600px){
+nav {
+    float: left;
+    width:25%;
+}
+    #section{
+        margin-left: 25%;
+    }
+    .column1{
+        width:45%;
+    }
+    .column3{
+
+        width:45%;
+    }
+    .column2{
+        clear:left;
+        width:90%;
+    }
+}

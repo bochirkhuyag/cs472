@@ -5,6 +5,7 @@ body{
     font-size:8pt;
     font-family: Verdana,Tahoma,SansSerif;
     background-image: url("background.png");
+
    }
 #topbanner{
     background-image:url("bannerbg.png");
@@ -34,7 +35,6 @@ h1{
     margin-right: auto;
     border: 4px solid gray;
     border-radius: 20px;
-    overflow:hidden;
     background-color: #A2B964;
 
 }
@@ -44,17 +44,17 @@ h1{
     overflow:hidden;
     background-image: url("background.png");
 }
-#leftContent > div{
-    margin-bottom: 20px;
 
-}
 #leftTop{
     background-image:url("rbg.png");
-    height:83px;
     font-weight: bold;
     font-size: 48pt;
     color: red;
+    line-height: 83px;
    }
+#leftTop img{
+    vertical-align: middle;
+}
 .columnLeft,.columnRight{
     padding:0;
     margin-left: 2%;
@@ -109,8 +109,7 @@ p:not(.review) img{
     float:left;
 }
 #reviewIndication{
-    position: relative;
-
+    clear:right;
     background-color: #A2B964;
     padding: 5px;
 }
@@ -119,4 +118,5 @@ p:not(.review) img{
     bottom:0;
     right:0;
     width: 100px;
+    opacity: 0.5;
 }
