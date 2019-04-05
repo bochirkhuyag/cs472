@@ -1,0 +1,42 @@
+.label{
+    font-family: Tahoma,Verdana,SansSerif;
+    font-size: 18pt;
+    font-weight: bold;
+    display:inline-block;
+    line-height: 30pt;
+}
+.textInput{
+    width:40%;
+    font-family: inherit;
+    font-size:100%;
+    line-height: 20pt;
+}
+.button{
+    box-sizing: border-box;
+    width: 100px;
+    border:1px ;
+    line-height:30px ;
+    margin-top: 10px;
+    background-color: black;
+    color:white;
+}
+p{
+    border:0;
+    background-color: grey;
+    line-height: 40px;
+    text-align: center;
+}
+
+table,th,td{
+    margin-top:20px;
+    margin-bottom: 20px;
+    width:100%;
+    font-family: Verdana,Tahoma,SansSerif;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th{
+    height: 50px;
+    background-color: grey;
+    color:white;
+}
