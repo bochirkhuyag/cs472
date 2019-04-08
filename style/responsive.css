@@ -1,6 +1,3 @@
-column{
-
-}
 h1{
     background-color: lightblue;
 }
@@ -10,6 +7,16 @@ footer{
 nav{
     background-color: darkgreen;
 }
+
+.wrapper{
+    width:500px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.wrapper > div {
+    flex: 1 1 150px;
+}
+/*
 .column1{
     height: 200px;
     width:33%;
@@ -31,6 +38,8 @@ nav{
     height: 200px;
     background-color: #999999;
 }
+*/
+/*
 @media only screen and (max-width: 599px){
 nav li{
     display:inline;
@@ -56,4 +65,4 @@ nav {
         clear:left;
         width:90%;
     }
-}
+}*/
