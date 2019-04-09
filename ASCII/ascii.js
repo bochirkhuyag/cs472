@@ -43,8 +43,8 @@ if (selected =="Tiny") font = "7pt";
    else if (selected =="Small") font = "10pt";
    else if (selected =="Medium") font = "12pt";
    else if (selected =="Large") font = "16pt";
-    else if (selected =="Large") font = "24pt";
-    else if (selected =="Large") font = "32pt";
+    else if (selected =="Extra Large") font = "24pt";
+    else if (selected =="XXL") font = "32pt";
 
 document.getElementById("text-area").style.fontSize=font;
 
