@@ -36,6 +36,7 @@ function findLongestWord(arrayOfWords){
         if(length < arrayOfWords[i].length) length=arrayOfWords[i].length;
     }
     return length;
+
 }
 function filterLongWords(arrayOfWords,min){
     let arrayOfLongWords=[];
